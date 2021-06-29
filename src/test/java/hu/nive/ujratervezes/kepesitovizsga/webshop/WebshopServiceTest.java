@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.webshop;
-/*
+
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,9 +19,9 @@ class WebshopServiceTest {
     void init() throws SQLException {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/orders?useUnicode=true");
+        dataSource.setUser("orders");
+        dataSource.setPassword("orders");
 
         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 
@@ -37,4 +37,4 @@ class WebshopServiceTest {
         List<String> names = webshopService.getValuableCustomers();
         assertEquals(Arrays.asList("Clara Spinka", "Gloria Hyatt", "Gloria Hyatt", "Stacy Doyle Jr."), names);
     }
-}*/
+}
