@@ -21,7 +21,7 @@ public class WebshopService {
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery("select customer_name from orders where total > 1000 order by customer_name")
         ) {
-            List<String> names = new ArrayList<>();
+
             while (rs.next()) {
                 String name = rs.getString("customer_name");
                 customers.add(name);
