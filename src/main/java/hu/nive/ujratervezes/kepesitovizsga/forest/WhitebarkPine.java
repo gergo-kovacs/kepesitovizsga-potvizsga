@@ -1,11 +1,12 @@
 package hu.nive.ujratervezes.kepesitovizsga.forest;
 
-public class FoxtailPine extends Tree{
-    public FoxtailPine() {
+public class WhitebarkPine extends Tree{
+
+    public WhitebarkPine() {
         super();
     }
 
-    public FoxtailPine(int height) {
+    public WhitebarkPine(int height) {
         super(height);
     }
 
@@ -16,11 +17,11 @@ public class FoxtailPine extends Tree{
 
     @Override
     protected void irrigate() {
-        this.height +=1;
+    this.height += 2;
     }
 
     @Override
     public String toString() {
-        return "FoxtailPine";
+        return "WhitebarkPine";
     }
 }

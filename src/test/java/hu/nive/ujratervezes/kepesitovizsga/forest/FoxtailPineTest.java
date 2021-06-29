@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.forest;
-/*
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -25,4 +25,4 @@ class FoxtailPineTest {
         assertEquals(6, foxtailPine.getHeight());
     }
 
-}*/
+}

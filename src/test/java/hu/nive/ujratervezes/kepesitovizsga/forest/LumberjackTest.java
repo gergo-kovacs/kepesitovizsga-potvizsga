@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.forest;
-/*
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,4 +15,4 @@ class LumberjackTest {
     void test_can_t_cut() {
         assertFalse(new Lumberjack().canCut(new FoxtailPine(3)));
     }
-}*/
+}

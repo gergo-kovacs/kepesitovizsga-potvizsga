@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.forest;
-/*
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -66,4 +66,4 @@ class ForestTest {
                 new FoxtailPine(3)
         )));
     }
-}*/
+}
