@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.lettermultiplier;
-/*
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -65,4 +65,4 @@ class LetterMultiplierTest {
         assertEquals("oonnee11ttwwoo22tthhrreeee33", letterMultiplier.multiply("one1two2three3", 2));
     }
 
-}*/
+}
